@@ -16,12 +16,7 @@ class splashpage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image(image: AssetImage("assets/icons/google-pay.png"),width:100,height: 100,),
-            Column(
-              mainAxisAlignment:MainAxisAlignment.end,
-              children: [
-                Text("Google"),
-              ],
-            )]
+            Align(alignment:Alignment.bottomCenter,  child: Text("Google"))]
         ),
       ),
     );
