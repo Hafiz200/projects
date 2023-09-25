@@ -60,7 +60,7 @@ class cbook extends StatelessWidget {
                     subtitle: Text("${stitle[index]}"),
                     leading: CircleAvatar(backgroundImage:AssetImage(images[index]),
                   ),
-                  trailing: Icon(Icons.emoji_symbols_sharp),
+                  trailing: Icon(Icons.arrow_forward_ios_sharp),
                 )),
       ),
     ));
